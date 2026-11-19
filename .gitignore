@@ -1,0 +1,40 @@
+# IDE & Editor
+.idea
+.vscode
+*.swp
+*.swo
+
+# Temp & Logs
+PATCH.md
+temp.md
+tsc.log
+*.log
+npm-debug.log*
+jmeter.log
+*.tmp
+*.bak
+temp
+
+# Dependencies
+node_modules
+scripts/node_modules
+automation/node_modules
+
+# Environment & Secrets (NEVER commit real keys)
+.env
+.env.*
+!.env.example
+env.local
+.env.*.local
+
+# Build & Runtime Outputs
+dist
+automation_profile
+automation/playwright-report
+automation/test-results
+automation/blob-report
+automation/playwright/.cache
+
+# OS Metadata
+.DS_Store
+Thumbs.db
